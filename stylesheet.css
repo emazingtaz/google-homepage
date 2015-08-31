@@ -1,0 +1,143 @@
+#header{
+position: fixed;
+z-index:1;
+right: 5px;
+font-family: arial, sans-serif;
+font-size: 13px;
+margin: 7px 15px 0 0;
+height: 100%;
+float: right;
+
+
+}
+
+#share {
+border-radius:1px;
+background-color: #F4F4F4;
+padding: 7px 15px;
+
+
+}
+
+#share:hover {
+	background-color: #E7E7E7;
+}
+
+
+
+li {
+
+	display: inline-block;
+	vertical-align: middle ;
+	margin-right: 10px;
+
+}
+
+#noti {
+	background: url('https://ssl.gstatic.com/gb/images/v2_0b3bd130.png');
+	background-position: -104px -240px;
+	position:absolute;
+	width: 42px;
+	height:52px;
+
+}
+
+#person
+{
+border-radius: 100%;
+
+}
+
+#logo {
+width: 269px;
+margin-top: 145px;
+margin-bottom:20px;
+
+
+}
+
+#google-logo {
+width:269px;
+margin:auto;
+
+}
+
+#search-bar {
+
+	font-size:15px;
+	padding: 0 0 0 4px;
+	margin-bottom:15px;
+	width:535px;
+	height:27px;
+	border:1px solid #DCDCDC;
+}
+
+#search-bar:focus {
+border:1px solid #4285F4;
+
+
+}
+
+#search-form {
+
+	width: 535px;
+	margin:auto;
+}
+
+#buttons {
+
+	width: 255px;
+	margin:auto;
+}
+
+.button {
+margin-right: 8px;
+border: 1px solid #dcdcdc;
+background: #f5f5f5;
+padding:6px 10px ;
+font-weight: bold;
+border-radius:3px;
+
+}
+
+.button:focus{
+border:1px solid #4285F4;
+
+}
+
+.button:hover{
+
+border-color: #c6c6c6;
+box-shadow:0 1 px 0 rgba(0, 0 ,0 , .15);
+
+}
+#footer {
+	background: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+	line-height: 40px;
+	min-width: 100%;
+	bottom:0;
+	position:absolute;
+}
+
+#left {
+
+
+	float:left;
+	margin-left: 27px;
+
+}
+
+#right {
+
+	float:right;
+	margin-right:20px;
+}
+
+#footer li {
+
+color:#666;
+font-family: arial,sans-serif;
+font-size: 10pt;
+
+}
